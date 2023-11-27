@@ -1,0 +1,14 @@
+// Class definition
+Class Guitar {
+  attributes:
+    model: string
+    brand: string
+    year: int
+    type: string
+
+  methods:
+    getModel() -> returns model
+    getBrand() -> returns brand
+    getYear() -> returns year
+    getType() -> returns type
+}

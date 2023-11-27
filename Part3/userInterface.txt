@@ -1,0 +1,52 @@
+// Include Guitar class definition and methods
+include guitar.txt
+include guitarMethods.txt
+
+// User interface loop
+while (true) {
+  // Display menu options
+  print("1. Add a guitar")
+  print("2. Remove a guitar")
+  print("3. Display all guitars")
+  print("4. Search for a guitar")
+  print("5. Sort guitars")
+  print("6. Exit")
+
+  // Get user choice
+  int choice = getUserInput()
+
+  // Switch case on user choice
+  switch (choice) {
+    case 1:
+      // Call method to add a guitar
+      addGuitar()
+      // Save updated collection to file
+      saveGuitarsToFile()
+      break
+    case 2:
+      // Call method to remove a guitar
+      removeGuitar()
+      // Save updated collection to file
+      saveGuitarsToFile()
+      break
+    case 3:
+      // Call method to display all guitars
+      displayAllGuitars()
+      break
+    case 4:
+      // Call method to search for a guitar
+      searchGuitar()
+      break
+    case 5:
+      // Call method to sort guitars
+      sortGuitars()
+      break
+    case 6:
+      // Exit the program
+      print("Exiting the program.")
+      exit(0)
+    default:
+      print("Invalid choice. Please choose a valid option.")
+  }
+}
+
