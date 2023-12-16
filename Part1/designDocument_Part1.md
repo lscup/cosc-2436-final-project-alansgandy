@@ -1,7 +1,7 @@
 # Initial Design Document:
 
 **Title:** Guitar Collection Catalog System  
-**Student:** Suzy Student  
+**Student:** Alan Gandy  
 **Course:** COSC 2436 Fall 23  
 
 ## Object:
